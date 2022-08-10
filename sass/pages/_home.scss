@@ -1,0 +1,31 @@
+.feature {
+    transform: translateY(-100px);
+}
+.explore {
+    margin-top: 50px;
+    text-align: center;
+    &__title {
+        width: 42%;
+        margin: 0 auto;
+    }
+}
+.touch{
+    margin-top: 150px; 
+    &_box{
+        background-color: $color-bg-2;
+        border-radius: $border-radius;
+        padding: 40px;
+        align-items: center;
+        background-image: url("../images/shape.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -400px 60%;
+        box-shadow: 5px 30px 50px rgba($color-secondary, .05);
+    }
+    .form{
+        width: 50%;
+    }
+    &__image{
+        width: 30%;
+    }
+}
